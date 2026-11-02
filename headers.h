@@ -1,7 +1,3 @@
-//
-// Created by etien on 15/10/2026.
-//
-
 #ifndef CAL_HEADERS_H
 #define CAL_HEADERS_H
 
@@ -49,9 +45,9 @@ int transfert_str(char* tab);
 
 t_list* creat_list();
 
-t_list* rajoute_ope(t_list* tab);
+void rajoute_ope(t_list* tab);
 
-t_ope_list* ope_list(t_cell* curr);
+t_ope_list* ope_list(t_cell* &curr);
 
 double calcul(t_list* tab);
 
